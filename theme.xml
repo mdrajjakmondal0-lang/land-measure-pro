@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<b:template xmlns:b="http://www.google.com/2005/gml/b" version="2">
+  <b:skin><![CDATA[
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  ]]></b:skin>
+  <b:section id="main" class="main" maxwidgets="1" showaddelement="no">
+    <b:widget id="LandSurveyorCalculator" type="HTML" title="Land Surveyor Calculator">
+      <b:includable id="main">
+        <div class="container">
+          <h1>জমি জরিপ ক্যালকুলেটর / Land Surveyor Calculator</h1>
+          <p>এখানে সব ধরনের জমি মাপের ক্যালকুলেটর থাকবে।</p>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+</b:template>
